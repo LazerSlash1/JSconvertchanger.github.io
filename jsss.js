@@ -1,6 +1,6 @@
 console.log("Login");
 console.log("Passwd: # ");
-console.log("User: # ");
+
 
 document.onkeydown = function(e) {
     if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {
