@@ -3,10 +3,6 @@ console.log("Login");
 console.log("Passwd: # ");
 console.log("hello");
 /* data end */
-
-
-/* the dark mode i made*/
-
 document.onkeydown = function(e) {
     if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {
         alert('Nuh uh :P');
@@ -16,6 +12,7 @@ document.onkeydown = function(e) {
     return false;
 
 };
+/* the dark mode i made*/
 
 function toggleDarkMode() {
     document.body.classList.toggle('dark-mode');
